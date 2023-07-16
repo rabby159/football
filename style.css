@@ -9,6 +9,7 @@
 .banner-container{
     display: flex;
     justify-content: space-around;
+    gap: 200px;
     border-radius: 30px;
     background: #161616;
     padding-left: 100px;
@@ -40,5 +41,47 @@
 .banner-img img{
     width: 550px;
     position: relative;
-    bottom: -26px;
+    bottom: -6px;
+}
+
+/* responsive for mobile  */
+@media screen and (max-width: 576px) {
+    .banner-container{
+        gap: 10px;
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner-title{
+        font-size: 1.3rem;
+    }
+    .banner-img img{
+        width: 280px;
+    }
+    .banner-describe{
+        font-size: 0.8rem;
+    }
+}
+
+/* responsive for tablet view  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner-container{
+        gap: 10px;
+        margin: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .banner-title{
+        font-size: 2.5rem;
+    }
+    .banner-describe{
+        font-size: 0.8rem;
+    }
+    .banner-img img{
+        width: 400px;
+        position: relative;
+        bottom: -51px;
+    }
 }
