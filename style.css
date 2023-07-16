@@ -1,0 +1,44 @@
+/* primary style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* banner section style  */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    background: #161616;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    margin: 50px 140px;
+}
+.banner-content{
+    padding-bottom: 100px;
+}
+.banner-title{
+    padding-top: 100px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-describe{
+    color: #FFF;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.btn-primary{
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    background: #D00;
+    padding: 15px 25px;
+}
+.banner-img img{
+    width: 550px;
+    position: relative;
+    bottom: -26px;
+}
